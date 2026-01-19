@@ -1,0 +1,43 @@
+# Dependências
+node_modules/
+.cache/
+npm-debug.log*
+
+# Testes (Jest)
+coverage/
+
+# Builds / Distribuição
+dist/
+build/
+*.zip
+*.crx
+
+# Segurança
+.env
+.env.*
+*.pem
+*.key
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+*~
+
+# IDEs
+.vscode/
+.idea/
+
+# Imagens
+# Screenshot*
+
+# 🚨 SECURITY: Prevent credential leaks
+*.har
+*.log
+*.pcap
+*.cap
+docs/**/*.har
+docs/**/*.log
+**/*.har
+**/*.log
+arquitetura_*.pdf
+arquitetura_*.svg

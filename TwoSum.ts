@@ -1,5 +1,4 @@
-// @ts-nocheck
-function twoSum(nums: number[], target: number): number[] {
+export function twoSum(nums: number[], target: number): number[] {
     const numMap = new Map<number, number>();
     for (let i = 0; i < nums.length; i++) {
         const complement = target - nums[i];
@@ -10,4 +9,3 @@ function twoSum(nums: number[], target: number): number[] {
     }
     return [];
 }
-console.log(twoSum([2, 7, 11, 15, 9], 9));

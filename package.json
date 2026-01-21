@@ -5,6 +5,9 @@
   },
   "type": "module",
   "scripts": {
-    "twosum": "bun run TwoSum.ts"
+    "test": "bun test",
+    "test:bubbleSort": "bun test test/bubbleSort.test.ts",
+    "test:buscaBinaria": "bun test test/buscaBinaria.test.ts",
+    "test:twoSum": "bun test test/twoSum.test.ts"
   }
 }

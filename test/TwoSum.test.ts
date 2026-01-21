@@ -1,5 +1,5 @@
 import { expect, test, describe } from "bun:test";
-import { twoSum } from "../TwoSum";
+import { twoSum } from "../src/algoritmos/TwoSum";
 
 describe("Two Sum", () => {
     test("deve retornar índices corretos para um caso básico", () => {

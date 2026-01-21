@@ -1,5 +1,5 @@
 import { expect, test, describe } from "bun:test";
-import { buscaBinaria } from "../buscaBinaria";
+import { buscaBinaria } from "../src/algoritmos/buscaBinaria";
 
 describe("Busca Binária", () => {
     test("deve encontrar um elemento no meio do array", () => {
